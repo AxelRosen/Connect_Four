@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="800.0" prefWidth="933.33" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+	<children>
+		<VBox alignment="CENTER" prefHeight="300.0" prefWidth="250.0">
+			<children>
+				<Button fx:id="newGameBtn" mnemonicParsing="false" onAction="#addPlayer1" prefHeight="60.0" prefWidth="250.0" text="New Game ">
+					<VBox.margin>
+						<Insets bottom="50.0" />
+					</VBox.margin>
+					<font>
+						<Font size="25.0" />
+					</font>
+				</Button>
+				<Button fx:id="highScoreBtn" mnemonicParsing="false" onAction="#showHighScore" prefHeight="60.0" prefWidth="250.0" text="Highscore">
+					<font>
+						<Font size="25.0" />
+					</font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+				</Button>
+            <Button mnemonicParsing="false" onAction="#showLog" prefHeight="60.0" prefWidth="250.0" text="Show log">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+			</children>
+		</VBox>
+	</children>
+</VBox>
