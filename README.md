@@ -1,1 +1,1 @@
-#Connect_Four
+This is a game called Connect Four.
